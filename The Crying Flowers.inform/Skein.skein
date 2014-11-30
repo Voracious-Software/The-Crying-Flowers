@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x15852b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x7f52500ada90"/>
+  <item nodeId="node-0x15852b0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+The Crying Flowers
+An Interactive Fiction by Voracious Software
+Release 1 / Serial number 141130 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Fields
+You are in the Fields of Everlasting Learning, Dreaming, Seeking, Laughing, Jumping, Murdering, and Feasting. You are here of your own accord. To the north is the Factory.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1585d30"/>
+      <child nodeId="node-0x1585eb0"/>
+      <child nodeId="node-0x7f52500ada90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1585d30">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Factory
+You are in a factory. You feel lightheaded here. You are here of your own accord, but you wish you weren&apos;t.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1585eb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Factory
+You are in a factory. You feel lightheaded here. You are here of your own accord, but you wish you weren&apos;t.
+
+You can see a Schwert here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f52500ad190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f52500ad190">
+    <command xml:space="preserve">look at schwert</command>
+    <result xml:space="preserve">An ancient sword that thirsts for AB- blood.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f52500ad310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f52500ad310">
+    <command xml:space="preserve">take it</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f52500ad490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f52500ad490">
+    <command xml:space="preserve">kill self with schwert</command>
+    <result xml:space="preserve">I only understood you as far as wanting to kill yourself.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f52500ad610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f52500ad610">
+    <command xml:space="preserve">kill self</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f52500ada90">
+    <command xml:space="preserve">kill me</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
